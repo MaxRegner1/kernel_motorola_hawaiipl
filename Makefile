@@ -30,7 +30,7 @@ export LC_COLLATE LC_NUMERIC
 unexport GREP_OPTIONS
 
 # Fix for Journey build script error
-JOURNEY_BUILD_SCRIPT=yes
+JOURNEY_BUILD_SCRIPT = yes
 # We are using a recursive build, so we need to do a little thinking
 # to get the ordering right.
 #

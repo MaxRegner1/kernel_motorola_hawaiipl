@@ -14,7 +14,7 @@ NAME = "People's Front"
 # That's our default target when none is given on the command line
 PHONY := _all
 _all:
-
+JOURNEY_BUILD_SCRIPT=yes
 # o Do not use make's built-in rules and variables
 #   (this increases performance and avoids hard-to-debug behaviour);
 # o Look for make include files relative to root of kernel src
